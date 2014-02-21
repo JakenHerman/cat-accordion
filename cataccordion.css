@@ -1,0 +1,54 @@
+.cell {
+	width: 25%;
+	height: 450px;
+	float: left;
+	-webkit-transition: width .5s ease-in-out;
+	-moz-transition: width .5s ease-in-out;
+	-ms-transition: width .5s ease-in-out;
+	transition: width .5s ease-in-out;
+}
+#accordion {
+	max-width: 1250px;
+	margin: 25px;
+}
+.focus {
+  height: 450px;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+.active .focus {
+  opacity: 100;
+}
+.cell.active {
+	width: 50%;
+}
+.cell.inactive {
+	width: 15%;
+}
+.cell:nth-child(1) {
+	background: url(http://i.imgur.com/3HEl2J2.jpg) top center no-repeat;
+}
+.cell:nth-child(1) .focus {
+	background: url(http://i.imgur.com/N6CqOc4.jpg) top center no-repeat;
+}
+.cell:nth-child(2) {
+	background: url(http://i.imgur.com/2O6omBV.jpg) top center no-repeat;
+}
+.cell:nth-child(2) .focus {
+	background: url(http://i.imgur.com/sNb8YNn.jpg) top center no-repeat;
+}
+.cell:nth-child(3) {
+	background: url(http://i.imgur.com/UNXGpzs.jpg) top center no-repeat;
+}
+.cell:nth-child(3) .focus {
+	background: url(http://scisoc.org.au/wp-content/uploads/2010/07/cute-cat-wallpaper-1400x1050.png) top center no-repeat;
+}
+.cell:nth-child(4) {
+	background: url(http://i.imgur.com/Q0VLOpa.jpg) top center no-repeat;
+}
+.cell:nth-child(4) .focus {
+	background: url(http://i.imgur.com/WdtOUOb.jpg) top center no-repeat;
+}
